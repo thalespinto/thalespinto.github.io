@@ -54,5 +54,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: fit-content;
+    @media (max-width: 780px) {
+        flex-direction: column;
+    }
 }
